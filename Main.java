@@ -8,9 +8,9 @@ public class Main {
 		Gameplay gamePlay = new Gameplay();
 		
 		obj.setBounds(10, 10, 700, 600);
-		obj.setTitle("Breakout Ball");		
-		obj.setResizable(false);
-		obj.setVisible(true);
+		obj.setTitle("Brick Breaker Game In Java");		
+		obj.setResizable(false); //can only be played in normal mode. false refers to that the screen can not be maximized.
+		obj.setVisible(true); // so that the windo or panel can be visible.
 		obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		obj.add(gamePlay);
                 obj.setVisible(true);
